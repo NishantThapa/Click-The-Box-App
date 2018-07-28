@@ -1,0 +1,17 @@
+section > div{
+  height: 100px;
+  width: 100px;
+  margin: 60px;
+  padding: 10px;
+  background-color: red;
+  float: left;
+  margin: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all .2s ease-in-out;
+  box-shadow: 5px 5px 2px grey;
+}
+div:hover{
+  transform: scale(1.1);
+}
